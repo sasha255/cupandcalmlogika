@@ -1,0 +1,232 @@
+body {
+    background-color: rgb(254, 235, 221);;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+    left: 30px;
+}
+
+.divlogo {
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee1 {
+    width: 350px;
+}
+
+.coffee2 {
+    display: block;
+    width: 350px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(102, 83, 76);
+    font-size: 17px;
+}
+
+.basket {
+    width: 27px;
+    padding-top: 10px;
+}
+
+.basket:hover {
+    width: 32px;
+    transition: 0.5s;
+}
+
+.buttons {
+    text-align: right;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 27px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 320;
+}
+
+h3 {
+    text-align: left;
+    font-size: 24px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 250;
+    margin-left: 10px;
+}
+
+
+.quote {
+    margin-left: 10px;
+    font-weight: 420;
+    text-shadow: 1px 1px 2px rgba(67, 36, 24, 0.584);
+}
+
+p {
+    margin-left: 10px;
+}
+
+.philosophy {
+    position: relative;
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/2htmlimage.jpg');
+    padding: 40px;
+    background-size: cover;
+    color: white;
+}
+
+span {
+    font-weight: 420;
+    text-shadow: 1px 1px 2px rgba(67, 36, 24, 0.584);
+}
+
+.slider {
+    width: 800px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 40px;
+    border-radius: 20px;
+   
+  }
+  .slides {
+    display: flex;
+    width: 300%; 
+    transition: transform 0.5s ease;
+    justify-content: center;
+    will-change: transform;
+  }
+  .slides img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  input[name="slide"] {
+    display: none;
+  }
+  
+  #s1:checked ~ .slides { transform: translateX(0%); }
+  #s2:checked ~ .slides { transform: translateX(-33.333%); }
+  #s3:checked ~ .slides { transform: translateX(-66.666%); }
+
+  .nav {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .nav label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #a07a64;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+  input[name="slide"]:checked + label {
+    background: #6b3f26; 
+  }
+
+  .slider {
+     text-align: center;
+    font-size: 24px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 250;
+    margin-bottom: 5px;
+  }
+
+.team {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.comand {
+    text-align: center;
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    scroll-margin-top: 20px;
+    gap: 20px;
+}
+
+.team img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+.teamp {
+    font-size: 13px;
+    text-align: center;
+}
+
+.team4 img {
+    width: 230px;
+    height: 135px;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+.quote2 {
+    text-align: center;
+    margin-left: 10px;
+    font-weight: 420;
+    text-shadow: 1px 1px 2px rgba(67, 36, 24, 0.584);
+}
+
+.footer2 {
+    background-color: rgba(254, 230, 213, 1);
+    padding-top: 15px;
+}
+
+.footer2 h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.footer2 p {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.footerimages {
+     margin-left: 20px;
+}
+
+.footerimages:hover {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+
